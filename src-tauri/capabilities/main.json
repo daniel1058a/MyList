@@ -1,0 +1,13 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "main",
+  "description": "Diagnóstico y catálogo desde la ventana local de MyList",
+  "local": true,
+  "windows": ["main"],
+  "permissions": [
+    "allow-storage-health", "allow-catalog-list", "allow-catalog-preferences", "allow-series-save", "allow-series-favorite", "allow-series-delete",
+    "allow-content-list", "allow-content-save", "allow-content-delete", "allow-content-reorder",
+    "allow-watch-update", "allow-watch-history", "allow-catalog-taxonomy",
+    "allow-library-statistics", "allow-continue-watching", "allow-backup-access"
+  ]
+}
